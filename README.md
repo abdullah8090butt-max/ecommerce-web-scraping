@@ -1,5 +1,15 @@
 # E-Commerce Product Web Scraper
 
+
+A Python-based web scraping project that collects e-commerce product data from Scraping Sandbox, cleans and analyzes the data, and generates useful visualizations.
+
+## Project Overview
+
+This project is a Python-based e-commerce web scraper built to collect, clean, analyze, and visualize product data from a public practice website.
+
+The scraper uses Playwright to navigate multiple pages automatically and collects product names, prices, ratings, availability, and product URLs.
+
+The collected data is cleaned using Pandas and exported to CSV and Excel files. A Jupyter Notebook is then used to perform data analysis and create visualizations with Matplotlib.
 A Python-based web scraping project that collects e-commerce product data from Scraping Sandbox, cleans and analyzes the data, and generates useful visualizations.
 ## Features
 
