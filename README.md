@@ -11,6 +11,17 @@ The scraper uses Playwright to navigate multiple pages automatically and collect
 
 The collected data is cleaned using Pandas and exported to CSV and Excel files. A Jupyter Notebook is then used to perform data analysis and create visualizations with Matplotlib.
 A Python-based web scraping project that collects e-commerce product data from Scraping Sandbox, cleans and analyzes the data, and generates useful visualizations.
+## Project Workflow
+
+1. Open the Scraping Sandbox website
+2. Scrape product data using Playwright
+3. Navigate through multiple pages automatically
+4. Collect 120 product records
+5. Clean and validate the data using Pandas
+6. Remove duplicate records
+7. Export the data to CSV and Excel
+8. Analyze the data using Jupyter Notebook
+9. Create visualizations using Matplotlib
 ## Features
 
 - Scrapes product data from multiple pages
@@ -69,15 +80,15 @@ The analysis includes:
 - Product availability visualization
 ## Results
 
-After scraping and cleaning the data:
-
-- **Total Products:** 120
-- **Average Price:** $104.80
-- **Minimum Price:** $6.22
-- **Maximum Price:** $204.29
-- **Most Common Rating:** 3.6
-- **In Stock:** 102 products (85%)
-- **Out of Stock:** 18 products (15%)
+| Metric | Result |
+|---|---:|
+| Total Products | 120 |
+| Average Price | $104.80 |
+| Minimum Price | $6.22 |
+| Maximum Price | $204.29 |
+| Most Common Rating | 3.6 |
+| In Stock | 102 (85%) |
+| Out of Stock | 18 (15%) |
 
 The cleaned dataset is available in both CSV and Excel formats.
 ## How to Run
