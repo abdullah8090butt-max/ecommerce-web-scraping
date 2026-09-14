@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 BASE_URL = "https://scrapingsandbox.com"
-TARGET_PRODUCTS = 120
+TARGET_PRODUCTS = 500
 
 products = []
 
